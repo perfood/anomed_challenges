@@ -24,3 +24,11 @@ Inputs: Full glucose runs, macronutrients (carbohydrate, protein, fat, fiber), m
 Target: Blood glucose reaction over 3 hours (15 min intervals)
 
 Test Metrics: MSE: 272.83 mg²/dl², MAE: 11.66 mg/dl
+## Challenge 4
+Similar to challenge 3, but without preceding glucose measurements for the test meals.
+
+Inputs: Full glucose runs (up to 1 day before the test meal), macronutrients (carbohydrate, protein, fat, fiber), meal time
+
+Target: Blood glucose reaction over 3 hours (15 min intervals)
+
+Test Metrics: MSE: 340.34 mg²/dl², MAE: 13.15 mg/dl
