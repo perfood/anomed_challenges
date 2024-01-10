@@ -47,6 +47,17 @@ Test Metrics:
 
     MSE: 340.34 mg²/dl²
     MAE: 13.15 mg/dl
+## Challenge 5
+In this challenge, we predict the time to peak using the meal data, anamnesis data and the mean time to glucose peak. 
+
+Inputs: Macronutrients (carbohydrate, protein, fat, fiber), 2D circular time encoding, sex (0: female, 1: male), age, BMI, height, weight, mean time to glucose peak (ttp_mean)
+
+Target: Time to glucose peak
+
+Test Metrics: 
+
+    MSE: 1058.51 minutes
+    MAE: 26.12 minutes
 ## Challenge 6
 In this challenge we predict anamnesis features based on continuous glucose measurements, meal data and the delta_max value.
 
