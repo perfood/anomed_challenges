@@ -58,10 +58,9 @@ for feature in anamnesis_features_train.columns:
     y_train = anamnesis_features_train[feature]
     y_test = anamnesis_features_test[feature]
 
-    rf = RandomForestRegressor(n_estimators=100, random_state=0)
+    rf = RandomForestRegressor(n_estimators=100, random_state=0)  # todo: make classification task for sex with balanced classes
     rf.fit(X_train, y_train)
     predictions = rf.predict(X_test)
 
     rmse = mean_squared_error(y_test, predictions)**0.5
     print(f'Root Mean Squared Error for {feature}: {rmse}\n')
-
