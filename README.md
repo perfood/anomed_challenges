@@ -56,8 +56,8 @@ Target: Time to glucose peak
 
 Test Metrics: 
 
-    MSE: 1058.51 minutes
-    MAE: 26.12 minutes
+    MSE: 1058.38 minutes
+    MAE: 26.20 minutes
 ## Challenge 6
 In this challenge we predict anamnesis features based on continuous glucose measurements, meal data and the delta_max value.
 
