@@ -125,8 +125,8 @@ The model aims to predict a single target variable:
 
 ### Test Metrics
 The model's performance on the test data is evaluated using the following metrics:
-- Mean Squared Error (MSE): 1058.51 minutes²
-- Mean Absolute Error (MAE): 26.12 minutes
+- Mean Squared Error (MSE): 1058.38 minutes²
+- Mean Absolute Error (MAE): 26.20 minutes
 ## Challenge 6: Predicting Anamnesis Features from Glucose and Meal Data
 
 ### Task Description

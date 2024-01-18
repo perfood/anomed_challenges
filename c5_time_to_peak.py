@@ -41,7 +41,7 @@ output = Dense(Y_train.shape[1])(x)
 model = tf.keras.Model(inputs=input, outputs=output)
 
 model.compile(
-    optimizer=Adam(learning_rate=0.1),
+    optimizer=Adam(learning_rate=0.0002),
     loss=tf.keras.losses.MeanSquaredError(),
     metrics=[tf.keras.metrics.MeanAbsoluteError()],
 )
